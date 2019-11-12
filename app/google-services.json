@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "480709766288",
+    "firebase_url": "https://wplus2.firebaseio.com",
+    "project_id": "wplus2",
+    "storage_bucket": "wplus2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480709766288:android:f8a42fa41846f333a63c15",
+        "android_client_info": {
+          "package_name": "com.example.wplusapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480709766288-bv3rjchuskm00ni8tgqog1nmvhble7iu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wplusapp",
+            "certificate_hash": "78683d108f2b795d14d3de2c5a34ca7ae1ba3bcc"
+          }
+        },
+        {
+          "client_id": "480709766288-t0kc4kl2ll9nijmkjt6s71t73i39isit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDptC1vNzIwomuNPn07hqoIDVksl0uypM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480709766288-t0kc4kl2ll9nijmkjt6s71t73i39isit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Login_Tittle"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:id="@+id/LoginTittle"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/wplushalf"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/Todo2"/>
+
+    <EditText
+        android:id="@+id/username2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="@string/username2_hint"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/Password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username2"
+        android:hint="@string/password2_hint"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:text="@string/LoginButton"
+        android:layout_below="@id/Password2"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <TextView
+        android:id="@+id/ForgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ForgetPassword"
+        android:layout_below="@+id/btnLogin"
+        android:textAlignment="center"
+        android:textColor="@color/red"/>
+
+    <!-- Google sign-in -->
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/GoogleLoginBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </com.google.android.gms.common.SignInButton>
+    <TextView
+        android:id="@+id/RegisterFromLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/RegisterFromLogin"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/HotPink"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/Homenav"
+        android:title="@string/Home"
+        android:icon="@drawable/ic_home_back"/>
+
+    <item android:id="@+id/ProfileBack"
+        android:title="@string/ProfileBack"
+        android:icon="@drawable/ic_profile_back"/>
+
+    <item android:id="@+id/usersBack"
+        android:title="@string/User_back"
+        android:icon="@drawable/ic_user_back"/>
+
+
+</menu>

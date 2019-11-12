@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">Wplus</string>
+    <string name="RegisterButton">Register</string>
+    <string name="LoginButton">Login</string>
+    <string name="Register_Tittle">Register</string>
+    <string name="Profile_Tittle">Profile</string>
+    <string name="Login_Tittle">Login</string>
+    <string name="Toolbar_tittle">Register</string>
+    <string name="Todo">NOthing</string>
+    <string name="Todo2">NOthing</string>
+    <string name="LoginFromRegister">Already have account? login here!!</string>
+    <string name="RegisterFromLogin">New user,Register here!!</string>
+    <string name="username_hint">Email-id</string>
+    <string name="password_hint">Password</string>
+    <string name="ForgetPassword">Forgot Password ? Recover now!</string>
+    <string name="RecoverPassword">Recover password</string>
+    <string name="username2_hint">Email-id</string>
+    <string name="password2_hint">Password</string>
+    <string name="phonenumber_hint">Phone number</string>
+    <string name="Age_hint">Age</string>
+    <string name="Address_hint">Address</string>
+    <string name="Logout_Tittle">Logout</string>
+    <string name="Home">Home</string>
+    <string name="ProfileBack">Profile</string>
+    <string name="User_back">users</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_Home_fragment">Home</string>
+    <string name="hello_Profile_fragment">Profile</string>
+    <string name="hello_User_fragment">User</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
